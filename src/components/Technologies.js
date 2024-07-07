@@ -3,7 +3,8 @@ import technologies from './../data/technologies.json';
 
 const Technologies = () => {
   return (
-    <section className="m-4 p-4 bg-white rounded-lg shadow-lg mx-auto">
+    <section className="techno-section flex flex-col mt-8 bg-white">
+    <div className="m-4 p-4 bg-white rounded-lg shadow-lg mx-auto">
       <h2 className="text-2xl font-bold text-center mb-4">Technologies</h2>
         {technologies.map((tech, index) => (
             <div key={index} className='flex flex-row hover:bg-custom-green p-3' >
@@ -14,6 +15,7 @@ const Technologies = () => {
                 </div>
           </div>
         ))}
+    </div>
     </section>
   );
 };

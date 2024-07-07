@@ -1,0 +1,40 @@
+[
+    {
+      "name": "Work in school",
+      "icon": "images/project-img.jfif",
+      "description": "We did some gooooood work in school, it was nice",
+      "date": "2024-12-12"
+    },
+    {
+        "name": "We won hackaton 🥂",
+        "icon": "images/prodject-img2.webp",
+        "description": "Me and my team won hackaton by techarena, it was nice!",
+        "date": "2024-12-12"
+      },
+      {
+        "name": "Prodject 3",
+        "icon": "images/",
+        "description": "sadasdadaasdadsadsasdada",
+        "date": "2024-12-12"
+      },
+      {
+        "name": "Prodject 4",
+        "icon": "images/",
+        "description": "sadasdadaasdadsadsasdada",
+        "date": "2024-12-12"
+      },
+      {
+        "name": "Prodject 5",
+        "icon": "images/",
+        "description": "sadasdadaasdadsadsasdada",
+        "date": "2024-12-12"
+      },
+      {
+        "name": "Prodject 6",
+        "icon": "images/",
+        "description": "sadasdadaasdadsadsasdada",
+        "date": "2024-12-12"
+      }
+    
+  ]
+  
