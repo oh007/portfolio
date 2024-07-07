@@ -1,0 +1,43 @@
+[
+    {
+      "name": "JavaScript",
+      "icon": "images/JS-logo.png",
+      "description": "I use this every day! I eat, sleep and breathe JavaScript."
+    },
+    {
+      "name": "React",
+      "icon": "images/React-logo.png",
+      "description": "Building dynamic UIs with this. It's like Lego, but for the web!"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "images/Tailwind-logo.png",
+      "description": "Utility-first CSS framework. Styling without the fuss."
+    },
+    {
+      "name": "Node.js",
+      "icon": "images/Node-logo.png",
+      "description": "JavaScript on the server. Who knew backends could be this fun?"
+    },
+    {
+      "name": "SQL",
+      "icon": "images/SQL-logo.jpg",
+      "description": "Database querying language. Fetching data like a boss."
+    },
+    {
+      "name": "Umbraco CMS",
+      "icon": "images/Umbraco-logo.png",
+      "description": "User-friendly .NET CMS. Crafting websites with ease."
+    },
+    {
+      "name": "React Native",
+      "icon": "images/ReactNative-logo.png",
+      "description": "React for mobile apps. One codebase to rule them all."
+    },
+    {
+      "name": "Express",
+      "icon": "images/Express-logo.png",
+      "description": "Fast, unopinionated, minimalist web framework for Node.js."
+    }
+  ]
+  
