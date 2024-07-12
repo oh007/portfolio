@@ -7,7 +7,7 @@ export default function Footer() {
     <section className="w-full py-12 md:py-24 lg:py-32 rounded-lg border border-[#383838] bg-[#242424]">
       <div className="container px-4 md:px-6 flex flex-col items-center text-center">
         <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl/none text-white">
-          Connected with me!☕
+          Connect with me!☕
         </h2>
         <p className="mx-auto max-w-[700px] text-zinc-100 md:text-lg dark:text-zinc-800">
           Reach out via E-mail or via social media

@@ -1,7 +1,12 @@
-import React from 'react'
+"use client"
+import { React,useState } from 'react';
+import HamburgerMenu from './HamburgerMenu'
+
 export default function Header() {
+  const [value, setValue] = useState('Enter your E-mail');
   return (
     <div className="@container">
+      <HamburgerMenu/>
     <div className="@sm:p-4">
       <div
         className="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @sm:gap-8 @sm:rounded-xl items-center justify-center p-4"
@@ -13,9 +18,9 @@ export default function Header() {
         }}
       >
         <div className="flex flex-col gap-2 text-center">
-          <h1 className="text-white text-4xl font-black leading-tight tracking-[-0.033em] @sm:text-5xl @sm:font-black @sm:leading-tight @sm:tracking-[-0.033em]">
-            Discover
-          </h1>
+            <h1 className="text-white text-3xl font-black leading-tight tracking-[-0.033em] @sm:text-5xl @sm:font-black @sm:leading-tight @sm:tracking-[-0.033em]">
+              Discover <span className="text-[#39E079]">Olof Hag</span>
+            </h1>
           <h2 className="text-white text-sm font-normal leading-normal @sm:text-base @sm:font-normal @sm:leading-normal">
             An frontend developer based in Sweden
           </h2>
@@ -41,7 +46,9 @@ export default function Header() {
             <input
               placeholder="Contact me"
               className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#FFFFFF] focus:outline-0 focus:ring-0 border border-[#383838] bg-[#242424] focus:border-[#383838] h-full placeholder:text-[#C4C4C4] px-[15px] rounded-r-none border-r-0 pr-2 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal @sm:text-base @sm:font-normal @sm:leading-normal"
-              value=""
+              value={value}
+              onChange={(e) => setValue(e.target.value)}
+              
             />
             <div className="flex items-center justify-center rounded-r-xl border-l-0 border border-[#383838] bg-[#242424] pr-[7px]">
               <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @sm:h-12 @sm:px-5 bg-[#39E079] text-[#141414] text-sm font-bold leading-normal tracking-[0.015em] @sm:text-base @sm:font-bold @sm:leading-normal @sm:tracking-[0.015em]">

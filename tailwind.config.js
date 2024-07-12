@@ -21,6 +21,7 @@ module.exports = {
         'custom-green': '#1ED760',
         'custom-green-dark': '#1db954',
         'green-darkest':'#1B2A25',
+        'custom-gray': '#242424',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

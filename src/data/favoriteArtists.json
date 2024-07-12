@@ -1,15 +1,18 @@
 [
-    {
-      "name": "Queen",
-      "icon": "images/queen.jfif"
-    },
-    {
-      "name": "The Beatles",
-      "icon": "images/beatles.jpg"
-    },
-    {
-      "name": "Metallica",
-      "icon": "images/metallica.jfif"
-    }
-  ]
-  
+  {
+    "name": "Queen",
+    "icon": "images/queen.jfif"
+  },
+  {
+    "name": "The Beatles",
+    "icon": "images/beatles.jpg"
+  },
+  {
+    "name": "Led Zeppelin",
+    "icon": "images/led-zeppelin.png"
+  },
+  {
+    "name": "Metallica",
+    "icon": "images/metallica.jfif"
+  }
+]

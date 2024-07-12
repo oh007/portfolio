@@ -6,6 +6,7 @@ const Technologies = () => {
     <section className="techno-section flex flex-col mt-8 bg-white">
     <div className="m-4 p-4 bg-white rounded-lg shadow-lg mx-auto">
       <h2 className="text-2xl font-bold text-center mb-4">Technologies</h2>
+      <p className='text-center text-slate-600 text-sm'>I use theese technologies for developing webapplications</p>
         {technologies.map((tech, index) => (
             <div key={index} className='flex flex-row hover:bg-custom-green p-3' >
                 <img src={tech.icon} alt={`${tech.name} icon`} className="w-12 h-12 m-auto rounded-xl" />
